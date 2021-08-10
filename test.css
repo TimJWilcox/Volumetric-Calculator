@@ -1,0 +1,70 @@
+.No-One{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center
+}
+
+.No-2{
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: center
+}
+
+.No-3{
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center
+}
+
+.No-3 p,.No-3 input {
+    text-align: center;
+}
+
+.Container-Option{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Container-4{
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.Container-4 div{
+    display: flex;
+    padding: 10px;
+    align-items: center; 
+}
+
+.Container-4 button{
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.Container-5, .Container-6{
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: center
+}
+
+
+
+.Flex-BOX-container-2 img{ 
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.7);   
+    margin: 10px;
+}
+
+.Flex-BOX-container-2{
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: center
+}

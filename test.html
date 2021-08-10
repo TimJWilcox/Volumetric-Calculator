@@ -1,0 +1,60 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="test.css">
+    <title>Document</title>
+</head>
+<body>
+<div>
+    <div class="No-One">
+        <h1>Volumetric Calculator</h1>
+    </div>
+    <div class="No-2">
+        <h6>Please input measurements, number of pieces & select your volumetric factor</h6>
+    </div>
+    <div class ="No-3">
+        <div>
+            <p>Number of Pieces</p>
+            <input type="number" name="txtPieces" id="txtPieces" value="" placeholder="Enter number of items" maxlength="4" >
+        </div>
+        <div>
+            <p>Length (cm)</p>
+            <input type="number" name="txtLength" id="txtLength" value="" placeholder="Enter length in cm" maxlength="4" >
+        </div>
+        <div>
+            <p>Breadth (cm)</p>
+            <input type="number" name="txtBreadth" id="txtBreadth" value="" placeholder="Enter breadth in cm" maxlength="4">
+        </div>
+        <div>
+            <p>Height (cm)</p>
+            <input type="number" name="txtHeight" id="txtHeight" value="" placeholder="Enter height in cm" maxlength="4">
+        </div>
+    </div>
+        <div class = "Container-Option">
+            <select id="volumeOption">
+                <option id="4000vol">4000:1</option>
+                <option id ="5000vol">5000:1</option>
+            </select>
+        
+        </div>
+
+    <div class = "Container-4">
+        <div>
+            <button class= "btn btn-primary" onclick="selectVolumeFunction()" >Calculate</button>
+            <button class= "btn btn-danger" onclick="history.go(0);">Reset</button>
+        </div>
+    </div>
+
+    <div class="Container-5" id="VolumeAnswerContainer">
+    </div>
+
+    
+    <div class="Container-6" id="flexCalc" ></div>
+    
+</div>
+<script src="test.js"></script>
+</body>
+</html>
